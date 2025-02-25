@@ -1,0 +1,5 @@
+# Ignore YAML files
+*.yaml
+
+# Ignore VS Code workspace settings files
+*.code-workspace

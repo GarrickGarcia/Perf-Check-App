@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>App Coming Soon</title>
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+	<style>
+		body {
+			background-color: #0f0f0f;
+			color: #fff;
+			font-family: 'Orbitron', sans-serif;
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			overflow: hidden;
+		}
+		h1 {
+			font-size: 4em;
+			text-align: center;
+			color: #0ff;
+			text-shadow: 0 0 5px #0ff,
+			             0 0 10px #0ff,
+			             0 0 20px #0ff,
+			             0 0 40px #0ff;
+			animation: neon 1.5s ease-in-out infinite alternate;
+		}
+		@keyframes neon {
+			from {
+				text-shadow: 0 0 5px #0ff,
+				             0 0 10px #0ff,
+				             0 0 20px #0ff,
+				             0 0 40px #0ff;
+			}
+			to {
+				text-shadow: 0 0 20px #0ff,
+				             0 0 30px #0ff,
+				             0 0 40px #0ff,
+				             0 0 60px #0ff;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>App Coming Soon</h1>
+</body>
+</html>
